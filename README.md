@@ -2,6 +2,10 @@
 
 This project is designed to process SCORM packages by extracting files from ZIP archives, parsing XML files, and then re-zipping the files. The main script, `index.py`, handles the conversion of files within a specified directory.
 
+## Background
+
+We are transitioning from the ILIAS learning management system to SAP SuccessFactors. During this transition, we encountered an issue where SCORM packages in the 2004 3rd Edition format do not function correctly in SAP SuccessFactors, although they run without problems in ILIAS. This project aims to address this compatibility issue by converting the SCORM packages to a format that is compatible with SAP SuccessFactors.
+
 ## Project Structure
 
 - `index.py`: The main script that orchestrates the conversion process.
