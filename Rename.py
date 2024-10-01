@@ -24,5 +24,5 @@ def goThroughFiles(foldername):
         renameFiles(foldername)
 
         
-foldername = "C:\\apps\\python\\ScormVersion\\data"
+foldername = "data"
 goThroughFiles(foldername)
